@@ -1,5 +1,6 @@
 import "./App.css";
 
+
 function App() {
   const links = [
     "GitHub",
@@ -10,8 +11,11 @@ function App() {
   ];
   return (
     <main className="bg-[#141414] flex justify-center items-center h-screen w-screen text-center">
-      <div className="bg-[#1F1F1F] p-[40px] rounded-[12px]">
-        <img />
+      <div className="bg-[#1F1F1F] p-[40px] rounded-[12px] flex justify-center items-center flex-col">
+        <img
+          src="../public/avatar-jessica.jpeg"
+          className="rounded-full w-[88px] h-[88px]"
+        />
         <p className="text-white">Jessica Randall</p>
         <p className="text-[#C4F82A]">London, United Kingdom</p>
         <div className="flex flex-col pt-[8px]">

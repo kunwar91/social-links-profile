@@ -13,7 +13,7 @@ function App() {
     <main className="bg-[#141414] flex justify-center items-center h-screen w-screen text-center">
       <div className="bg-[#1F1F1F] p-[40px] rounded-[12px] flex justify-center items-center flex-col">
         <img
-          src="../avatar-jessica.jpeg"
+          src="/avatar-jessica.jpeg"
           className="rounded-full w-[88px] h-[88px]"
         />
         <p className="text-white">Jessica Randall</p>

@@ -18,11 +18,14 @@ function App() {
         />
         <p className="text-white">Jessica Randall</p>
         <p className="text-[#C4F82A]">London, United Kingdom</p>
-        <div className="flex flex-col pt-[8px]">
+        <p className="text-white my-6">
+          {`"Front-end developer and avid reader."`}
+        </p>
+        <div className="flex flex-col w-full">
           {links.map((link, index) => {
             return (
               <a
-                className="text-white hover:text-[#333333] hover:bg-[#C4F82A] bg-[#333333] p-3 my-[8px] rounded-[8px] w-full text-center"
+                className="text-white hover:text-[#333333] hover:bg-[#C4F82A] bg-[#333333] p-3 my-2 rounded-lg w-full text-center"
                 key={index}
               >
                 {link}

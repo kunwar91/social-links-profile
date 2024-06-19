@@ -22,7 +22,9 @@ function App() {
           className="rounded-full w-[88px] h-[88px] mb-6"
           alt="img"
         />
-        <p className="text-white font-[Inter-SemiBold] text-2xl">{user.name}</p>
+        <h1 className="text-white font-[Inter-SemiBold] text-2xl">
+          {user.name}
+        </h1>
         <p className="text-neon-green font-inter-bold text-sm mt-1">
           {user.location}
         </p>

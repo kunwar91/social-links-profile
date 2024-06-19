@@ -33,7 +33,7 @@ function App() {
           {links.map((link, index) => {
             return (
               <a
-                className="text-white hover:text-off-black hover:bg-neon-green bg-grey p-3 my-2 rounded-lg w-full text-center font-inter-bold text-sm"
+                className="text-white hover:text-off-black hover:bg-neon-green bg-grey p-3 my-2 first:mt-0 last:mb-0 rounded-lg w-full text-center font-inter-bold text-sm"
                 key={index}
               >
                 {link}

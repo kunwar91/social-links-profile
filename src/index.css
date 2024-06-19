@@ -73,25 +73,23 @@ button:focus-visible {
 @tailwind utilities;
 
 @layer base {
-  @layer base {
-    @font-face {
-      font-family: 'Inter-SemiBold';
-      font-style: normal;
-      src: url(assets/fonts/static/Inter-SemiBold.ttf);
-    }
+  @font-face {
+    font-family: 'Inter-SemiBold';
+    font-style: normal;
+    src: url(assets/fonts/static/Inter-SemiBold.ttf);
   }
-  @layer base {
-    @font-face {
-      font-family: 'Inter-Bold';
-      font-style: normal;
-      src: url(assets/fonts/static/Inter-Bold.ttf);
-    }
+}
+@layer base {
+  @font-face {
+    font-family: 'Inter-Bold';
+    font-style: normal;
+    src: url(assets/fonts/static/Inter-Bold.ttf);
   }
-  @layer base {
-    @font-face {
-      font-family: 'Inter-Regular';
-      font-style: normal;
-      src: url(assets/fonts/static/Inter-Regular.ttf);
-    }
+}
+@layer base {
+  @font-face {
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    src: url(assets/fonts/static/Inter-Regular.ttf);
   }
 }
